@@ -8,12 +8,12 @@ class Person{
 	}
 }
 class Employee extends Person{
-	constructor(name, age, title){
+	constructor(name, age, jobTitle){
 		super(name,age);
-		this.title = title;
+		this.jobTitle = jobTitle;
 	}
 	jobGreet(){
-		console.log(`Hello, my name is ${this.name}, I am ${this.age} years old, and my job title is ${this.title}.`)
+		console.log(`Hello, my name is ${this.name}, I am ${this.age} years old, and my job title is ${this.jobTitle}.`)
 	}
 }
 let p = new Person("Ashish", 25)
