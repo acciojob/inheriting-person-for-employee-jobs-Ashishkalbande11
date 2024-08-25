@@ -1,4 +1,3 @@
-// complete this js code
 class Person{
 	constructor(name, age){
 		this.name = name;
@@ -17,7 +16,10 @@ class Employee extends Person{
 		console.log(`Hello, my name is ${this.name}, I am ${this.age} years old, and my job title is ${this.title}.`)
 	}
 }
-
+let p = new Person("Ashish", 25)
+let e = new Employee("Ashish",25,"Java Developer")
+p.greet();
+e.jobGreet();
 // Do not change code below this line
 window.Person = Person;
 window.Employee = Employee;
